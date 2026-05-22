@@ -1,6 +1,6 @@
 #!/usr/bin/bash 
 
-sed -i 's/\[]/\["3.144.212.231"]/' /home/ubuntu/project_devops/agency/settings.py
+sed -i 's/\[]/\["13.60.215.88"]/' /home/ubuntu/project_devops/agency/settings.py
 
 python manage.py migrate 
 python manage.py makemigrations     
